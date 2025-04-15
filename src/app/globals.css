@@ -1,0 +1,68 @@
+/* globals.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf2f8; /* Soft light pink */
+  color: #333;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #d63e80; /* Soft pink for text */
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-signup {
+  background-color: #ec4899; /* Vibrant pink */
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: #db2777; /* Darker pink for hover */
+}
+
+.btn-login {
+  background-color: #f472b6; /* Light pink */
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #e11d48; /* Rich pink for hover */
+}
+
+.btn-logout {
+  background-color: #f43f5e; /* Red-pink */
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #d32f46; /* Darker red-pink */
+}

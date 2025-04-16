@@ -1,12 +1,16 @@
-# auth0-demo
-A simple demo app with auth0
+# 🌐 Auth0 Demo
 
-To run locally: 
+A simple demo app showcasing authentication using [Auth0](https://auth0.com/).
+
+## 🚀 Getting Started
+
+### Run Locally
+npm install
 npm run dev
 
-## Or use docker:
-- build an image
-  docker build -t example_tag .
+### Run with docker
+build an image
+docker build -t example_tag .
 
-- run the container with the image
-  docker run -p 3000:3000 example_tag
+run the container with the image
+docker run -p 3000:3000 example_tag
